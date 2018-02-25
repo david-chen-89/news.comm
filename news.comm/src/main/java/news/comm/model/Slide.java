@@ -1,4 +1,4 @@
-package news.web.model;
+package news.comm.model;
 
 public class Slide {
 	private String link;

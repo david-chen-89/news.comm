@@ -1,4 +1,4 @@
-package news.web.service;
+package news.comm.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +15,9 @@ import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
-import news.web.model.Article;
-import news.web.model.ParaGraph;
-import news.web.model.Slide;
+import news.comm.model.Article;
+import news.comm.model.ParaGraph;
+import news.comm.model.Slide;
 
 @Service
 public class MongoService implements DataServiceI {
